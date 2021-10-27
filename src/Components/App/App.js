@@ -11,7 +11,7 @@ function App() {
   const location = useLocation()
   React.useEffect(()=>{
     console.log(location.pathname)
-    if(location.pathname = '/'){
+    if(location.pathname = 'test_task_alef'){
       history.push('/form')
     }
   },[])
