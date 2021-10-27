@@ -1,11 +1,20 @@
 import React from "react";
 
 import Layout from "../Layout/Layout";
-import { Route, Switch } from "react-router-dom";
+import {Route, Switch, useHistory, useLocation} from "react-router-dom";
 import FormPage from "../FormPage/FormPage";
 import PreviewPage from "../PreviewPage/PreviewPage";
 
+
 function App() {
+  const history = useHistory()
+  const location = useLocation()
+  React.useEffect(()=>{
+    console.log(location.pathname)
+    if(location.pathname = '/'){
+      history.push('/form')
+    }
+  },[])
   return (
     <>
       <Layout>
