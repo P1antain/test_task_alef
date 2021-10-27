@@ -42,7 +42,9 @@ export default function PersonalForm() {
             type="text"
             id={"name"}
             className={styles.input}
-            {...register('father.name')}
+            {...register('father.name',{
+              pattern: /[A-Za-zА-Яа-яЁё]{3}/
+            })}
 
           />
         </label>
@@ -52,7 +54,9 @@ export default function PersonalForm() {
             type="text"
             id={"age"}
             className={styles.input}
-            {...register('father.age')}
+            {...register('father.age',{
+              pattern: /[0-9]/
+            })}
           />
         </label>
         <div className={styles.block}>
@@ -70,7 +74,9 @@ export default function PersonalForm() {
                 Имя
                 <input
                     id={`childName${index}`}
-                  {...register(`baby.${index}.childName`)}
+                  {...register(`baby.${index}.childName`,{
+                    pattern: /[A-Za-zА-Яа-яЁё]{3}/
+                  })}
                   className={styles.input}
                 />
               </label>
@@ -78,7 +84,9 @@ export default function PersonalForm() {
                 Возраст
                 <input
                     id={`childAge${index}`}
-                  {...register(`baby.${index}.childAge`)}
+                  {...register(`baby.${index}.childAge`,{
+                    pattern: /[0-9]/
+                  })}
                   className={styles.input}
                 />
               </label>
