@@ -1,0 +1,40 @@
+.header {
+  display: grid;
+  grid-template-columns: 252px 1fr;
+  align-items: center;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+}
+.logo {
+  padding-left: 51px;
+  margin: 22px 0;
+}
+.elem {
+  margin-left: -252px;
+  justify-self: center;
+  gap: 24px;
+}
+.link {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--gray-color);
+  text-decoration: none;
+  margin-right: 24px;
+}
+.link:last-of-type {
+  margin-right: 0;
+}
+.main {
+  flex-grow: 1;
+}
+.footer {
+  background: #fafafa;
+  box-shadow: 0px 1px 0px rgba(17, 17, 17, 0.1);
+}
+.footer__text {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--black-color);
+  margin: 30px 0;
+}

@@ -1,0 +1,36 @@
+:root{
+  --black-color: #111111;
+  --gray-color: rgba(17, 17, 17, 0.48);
+  --primary-color: #01A7FD;
+  --header:{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black-color);
+  };
+  --text:{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--black-color);
+  };
+  --link:{
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--gray-color);
+  };
+  --help-label:{
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--gray-color);
+  }
+
+}
+#root{
+  display: flex;
+  max-width: 1366px;
+  margin: 0 auto;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}

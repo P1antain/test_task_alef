@@ -1,0 +1,115 @@
+.form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+.header_wrapper{
+  margin: 30px 0 20px ;
+}
+.label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px 6px;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--gray-color);
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.label:last-of-type {
+  margin-bottom: 0;
+}
+
+.input {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--black-color);
+  border: none;
+}
+
+/*Block */
+.block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 33px 0 11px;
+}
+.btn {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--primary-color);
+  background-color: inherit;
+  border: 2px solid var(--primary-color);
+  box-sizing: border-box;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 10px 20px;
+}
+.btn:hover {
+  color: #ffffff;
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
+}
+
+/*Wrapper*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.wrapper .label:first-child {
+  margin: 0 18px 0 0;
+}
+.item{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 10px;
+}
+/*Delete btn*/
+.btn__delete{
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+  color: var(--primary-color);
+  background-color: inherit;
+  border: none;
+  transition: all 0.3s;
+  margin-left: 18px;
+}
+.btn__delete:hover{
+  color: var(--black-color);
+}
+/*Save btn*/
+.btn__save {
+  width: 118px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 2px solid var(--primary-color);
+  margin-top: 20px;
+}
+.btn__save:hover {
+  background-color: inherit;
+  color: var(--primary-color);
+}

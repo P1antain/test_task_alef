@@ -1,0 +1,41 @@
+.previewPage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block {
+  margin: 30px 0 60px;
+  width: 300px;
+}
+.header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black-color);
+  margin: 0;
+}
+.text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 20px 0 0 ;
+}
+.lists{
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.lists .header{
+  text-align: start;
+}
+.item{
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 20px;
+  background: #F1F1F1;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
