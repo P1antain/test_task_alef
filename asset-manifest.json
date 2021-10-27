@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/test_task_alef/static/css/main.c9d10d68.chunk.css",
+    "main.js": "/test_task_alef/static/js/main.12c7ed5a.chunk.js",
+    "main.js.map": "/test_task_alef/static/js/main.12c7ed5a.chunk.js.map",
+    "runtime-main.js": "/test_task_alef/static/js/runtime-main.b382408a.js",
+    "runtime-main.js.map": "/test_task_alef/static/js/runtime-main.b382408a.js.map",
+    "static/css/2.679831fc.chunk.css": "/test_task_alef/static/css/2.679831fc.chunk.css",
+    "static/js/2.961d1b6f.chunk.js": "/test_task_alef/static/js/2.961d1b6f.chunk.js",
+    "static/js/2.961d1b6f.chunk.js.map": "/test_task_alef/static/js/2.961d1b6f.chunk.js.map",
+    "index.html": "/test_task_alef/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/test_task_alef/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.c9d10d68.chunk.css.map": "/test_task_alef/static/css/main.c9d10d68.chunk.css.map",
+    "static/js/2.961d1b6f.chunk.js.LICENSE.txt": "/test_task_alef/static/js/2.961d1b6f.chunk.js.LICENSE.txt",
+    "static/media/Logo.e1ab4bce.svg": "/test_task_alef/static/media/Logo.e1ab4bce.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b382408a.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.961d1b6f.chunk.js",
+    "static/css/main.c9d10d68.chunk.css",
+    "static/js/main.12c7ed5a.chunk.js"
+  ]
+}
